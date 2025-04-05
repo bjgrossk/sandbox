@@ -1,4 +1,4 @@
-package Java;
+package sandbox;
 import java.net.URL;
 
 import java.net.HttpURLConnection;
@@ -18,7 +18,7 @@ public class SimpleHTTPRequest {
         String text; 
         StringBuffer buffer = new StringBuffer();
         BufferedReader reader; 
-        ; 
+        
 
         try {            
             URL url = new URI("https://en.wikipedia.org/wiki/briangrossklas").toURL();
