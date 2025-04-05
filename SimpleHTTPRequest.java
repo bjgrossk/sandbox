@@ -43,7 +43,7 @@ public class SimpleHTTPRequest {
                 reader.close();
             }
            
-
+            //Response code !=2xx, e.g. bad request
             else {
                 System.out.println("Request failed: " + urlConnection.getResponseMessage());
             }
